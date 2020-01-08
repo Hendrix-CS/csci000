@@ -152,87 +152,25 @@ There will often be short homework assignments to be completed over the weekend,
 
 ## <a name="labs">Labs</a>: 260 points
 
-<br/>
-<div style="text-align: center; font-size: 150%; border-style: solid; border-width: 2px; width: 50%; margin: 0 auto; padding: 10px">
-<a href="https://forms.gle/FDVYUUvWmg5EdFs38">Submission form</a><br>
-
-<a href="{{site.baseurl}}/docs/lab-project-rubric.pdf">Rubric</a>
-</div>
-<br/>
-
-* [Thursday lab code of conduct]({{site.baseurl}}/docs/code-of-conduct-19F-R.pdf)
-
 | #  | Name | Assigned | Due
 |:-:|-||:-:|:-:|
-|1 | [Minecraft Hour of Code]({{site.baseurl}}/labs/minecraft.html) | Aug 28-29 | Sep 4-5 |
-|2 | [Kepler and Newton](https://notebooks.azure.com/goadrich/projects/kepler-vs-newton) | Sep 4-5 | Sep 11-12 |
-|3 | [Diagnosing Heart Disease](https://notebooks.azure.com/goadrich/projects/heart-disease-lab) | Sep 11-12 | Sep 18-19 |
-|4 | [This Day in History](https://notebooks.azure.com/yorgey/projects/this-day-in-history-public) | Sep 18-19 | Sep 25-26 |
-|5 | [Guess My Number]({{site.baseurl}}/labs/guess.html) | Sep 25-26 | Oct 2-3 |
-|6 | [Mutation is the Word]({{site.baseurl}}/labs/doublets.html) | Oct 2-3 | Oct 9-10 |
-|7 | [Todo Manager]({{site.baseurl}}/labs/todo-manager.html) | Oct 9-10 | Oct 23-24 |
-|8 | [Caesar’s Secrets](https://notebooks.azure.com/goadrich/projects/caesar-s-secrets) | Oct 23-24 | Oct 30-31 |
-|9 | [Sentiment Analysis](https://notebooks.azure.com/goadrich/projects/sentiment-analysis) | Oct 30-31 | Nov 6-7 |
-|10| [Water Jugs]({{site.baseurl}}/labs/waterjug.html) | Nov 6-7 | Nov 13-14 |
-|11| [Graphics and Animation]({{site.baseurl}}/labs/graphics.html) | Nov 13-14 | Nov 20-21 |
-|12| [Enron’s Secrets]({{site.baseurl}}/labs/needles.html) | Nov 20-21 | Dec 4-5 |
-|13| [On Stuckness and Debugging]({{site.baseurl}}/labs/debugging.html) | Dec 4-5 | Dec 11-12 |
+|1 | [Sample Lab]({{site.baseurl}}/labs/sample-lab.html) | Aug 28-29 | Sep 4-5 |
+|2 | [Sample Lab]({{site.baseurl}}/labs/sample-lab.html) | Sep 4-5 | Sep 11-12 |
+|3 | [Sample Lab]({{site.baseurl}}/labs/sample-lab.html) | Sep 11-12 | Sep 18-19 |
 
-Much of your experience with programming in this course will be through weekly labs. Each lab will be assigned Wednesday/Thursday in lab with time allotted to work through the materials, and will be due **by the start of the following lab**. All labs are weighted equally within the lab portion of your final grade.
+Much of your experience with programming in this course will be through weekly labs. Each lab will be assigned in lab with time allotted to work through the materials, and will be due **by the start of the following lab**. All labs are weighted equally within the lab portion of your final grade.
 
 On these labs, you will work with a partner on the lab assignments. Their name must be listed on any code you hand in as joint work. A partnership should only turn in a **single copy** of the assignment. If students working as partners wish to turn in a lab late, both students must use a late day.
 
 **Lab attendance is required**. Labs take place in the **Snoddy Computer Lab**, in the Bailey Library. As you go through the exterior door of the library, turn immediately to your left and enter the Snoddy Academic Resource Center. Continue through the door at the far end of the hall into the first computer lab, and then enter the second lab at the back.
 
-Labs should follow the [Python style guide](python_style_guide.html). You may use the automated style checker to help you catch common style errors.
-
-#### Azure Notebook Setup
-
-For many of the labs, we will be using Azure Notebooks. Here are specific instructions
-on how to get started with these notebooks.
-
-* First, you will need to create a free Microsoft Azure Notebook
-  account. [Visit this webpage to start the process](https://notebooks.azure.com/).
-
-* Click on the <kbd>Sign in</kbd> text in the upper-right corner of the
-  page. Log in with your Hendrix email account and password.
-
-* Next, follow the link for the specific lab for the week, and click on the green <kbd>Clone</kbd> button in the
-  upper-right corner of the screen.
-
-* This should make a copy of the project for you in your projects
-  folder. Now click on <kbd>My Projects</kbd> and the name of your lab for the week.
-
-* In your copy of the project, click on the `.ipynb`
-  file in the project listing. This should open the
-  notebook in the Azure Jupyter system in a separate browser tab, and
-  you can start editing the file with your code. Follow the
-  instructions in the file to complete this lab.
-
-* You can save your progress using <kbd>Ctrl-S</kbd> or <kbd>Cmd-S</kbd>, and then
-  return to this file any time.
-
-* To submit your file for grading when you are finished, return to
-  the lab folder listing in the <kbd>My Projects</kbd>
-  tab. Select the circle to the left of the `.ipynb` file.
-  Then, click on the down arrow icon in the menu, to
-  the left of the trash can icon.  This will allow you to download
-  the file onto your computer; then you can upload it using the
-  usual turnin form.
-
 ## <a name="projects">Projects</a>: 350 points
-
-<br/>
-<div style="text-align: center; font-size: 150%; border-style: solid; border-width: 2px; width: 50%; margin: 0 auto; padding: 10px">
-<a href="https://forms.gle/FDVYUUvWmg5EdFs38">Submission form</a>
-</div>
-<br/>
 
 | #  | Name | Points | Assigned | Due
 |:-:|-||:-:|:-:|:-:|
-|1 | [Civic Assistance Q/A System](https://notebooks.azure.com/goadrich/projects/project-1) | 50  | Sep 21 | Sep 30 |
-|2 | [Word Games]({{site.baseurl}}/projects/project2.html) | 100 | Oct 16 | Nov 1 |
-|3 | [Final Project]({{site.baseurl}}/projects/final.html) | 200 | Nov 18 | Final Exam Day |
+|1 | [Sample Project]({{site.baseurl}}/projects/sample-project.html)  | 50  | Sep 21 | Sep 30 |
+|2 | [Sample Project]({{site.baseurl}}/projects/sample-project.html) | 100 | Oct 16 | Nov 1 |
+|3 | [Sample Project]({{site.baseurl}}/projects/sample-project.html) | 200 | Nov 18 | Final Exam Day |
 
 You will have three projects in this course, one about every five weeks. These projects will cover concepts we have discussed in class and in labs, and will be due approximately one week after they are assigned.
 
@@ -254,9 +192,9 @@ There is no final exam; you will complete a final project instead, as described 
 ## <a name="scale">Grading Scale</a>
 
 | Score  | Grade  |
-|:-:|:-:|
-| 900-1000  | A  |
-| 800-899  | B  |
-| 700-799  | C  |
-| 600-699  | D  |
-| 0-599  | F  |
+|:------:|:------:|
+| 900-1000  | A   |
+| 800-899   | B   |
+| 700-799   | C   |
+| 600-699   | D   |
+| 0-599     | F   |
