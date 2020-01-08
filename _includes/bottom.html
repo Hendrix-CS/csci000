@@ -1,0 +1,27 @@
+    <!-- Footer -->
+    <footer class="py-4 bg-primary">
+      <div class="container">
+        <p class="m-0 text-center text-white"><small>Copyright &copy; Hendrix Computer Science 2019</small></p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="{{ site.baseurl }}/assets/vendor/jquery/jquery.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://hypothes.is/embed.js" async></script>
+  	<script>
+  	// https://github.com/twbs/bootstrap/issues/1768
+  var shiftWindow = function() { scrollBy(0, -70) };
+  if (location.hash) shiftWindow();
+  window.addEventListener("hashchange", shiftWindow);
+
+  //https://codepen.io/lkp/pen/bdPbQx
+  $(function(){
+       var navMain = $(".navbar-collapse");
+
+       navMain.on("click", "a", null, function () {
+           navMain.collapse('hide');
+       });
+   });
+   </script>

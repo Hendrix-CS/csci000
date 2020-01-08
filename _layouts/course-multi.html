@@ -1,0 +1,24 @@
+---
+layout: course
+---
+
+      <div class="row">
+      {% for offer in site.offerings %}
+      <div class="col-md-{{12 | divided_by: site.offerings.size}}">
+        <div class="instructor">
+        <h4>{{ offer.name }}</h4>
+        <p>{{ offer.time }}</p>
+        <h5>Location</h5>
+        <p>{{ offer.loc }}</p>
+        <h5>Instructor</h5>
+        <p><a href="{{ offer.instweb}}">{{ offer.instructor}}</a><br>
+        {{ offer.instemail }}<br>
+        {{ offer.instphone }}<br>
+        <a href="{{ offer.officehours }}">Office Hours</a>
+        </p>
+        </div>
+      </div>
+      {% endfor %}
+      </div>
+
+{{ content }}

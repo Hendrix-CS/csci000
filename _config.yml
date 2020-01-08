@@ -1,0 +1,83 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+email: your-email@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Introduction to solving computational problems, including the fundamentals
+  of computer programming. Topics include imperative programming constructs
+  (variables, loops, conditionals, functions, recursion), basic
+  object-oriented constructs (classes, objects), and some fundamental
+  algorithms and data structures (dictionaries, arrays, linked lists).
+  Student learn these concepts through studying the Python programming
+  language.
+baseurl: "/csci150" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+number: CSCI 150
+title: Foundations of Computer Science
+semester: Fall 2019
+
+offerings:
+  - name: LECTURE 01
+    loc: MCREY 110
+    time: MWF 8:10am - 9:00am
+    instructor: Dr. Brent Yorgey
+    instemail: yorgey@hendrix.edu
+    instweb: http://ozark.hendrix.edu/~yorgey
+    instphone: (501) 450-1377
+    officehours: https://byorgey.youcanbook.me
+  - name: LECTURE 02
+    loc: MCREY 110
+    time: MWF 11:10am - 12:00pm
+    instructor: Dr. Mark Goadrich
+    instemail: goadrich@hendrix.edu
+    instweb: http://mark.goadrich.com
+    instphone: (501) 450-1367
+    officehours: http://mark.goadrich.com/schedule.html
+  - name: LAB 01
+    loc: Snoddy Computer Lab
+    time: R 1:10pm - 4:00pm
+    instructor: Dr. Brent Yorgey
+    instemail: yorgey@hendrix.edu
+    instweb: http://ozark.hendrix.edu/~yorgey
+    instphone: (501) 450-1377
+    officehours: https://byorgey.youcanbook.me
+  - name: LAB 02
+    loc: Snoddy Computer Lab
+    time: W 1:10pm - 4:00pm
+    instructor: Dr. Mark Goadrich
+    instemail: goadrich@hendrix.edu
+    instweb: http://mark.goadrich.com
+    instphone: (501) 450-1367
+    officehours: http://mark.goadrich.com/schedule.html
+
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
