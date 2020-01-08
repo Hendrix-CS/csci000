@@ -67,6 +67,18 @@ instructors:
     web: http://mark.goadrich.com
     phone: (501) 450-1367
     officehours: http://mark.goadrich.com/schedule.html
+  - id: ferrer
+    name: Dr. Gabriel Ferrer
+    email: ferrer@hendrix.edu
+    web: http://ozark.hendrix.edu/~ferrer
+    phone: (501) 450-3879
+    officehours: https://drferrer.youcanbook.me/
+  - id: seme
+    name: Prof. Lars Seme
+    email: seme@hendrix.edu
+    web: https://www.hendrix.edu/mathcs/profile.aspx?id=70795
+    phone: (501) 450-1256
+    officehours: ???
 
 offerings:
   - name: LECTURE 01
@@ -80,11 +92,11 @@ offerings:
   - name: LAB 01
     loc: Snoddy Computer Lab
     time: R 1:10pm - 4:00pm
-    instructor: yorgey
+    instructor: ferrer
   - name: LAB 02
     loc: Snoddy Computer Lab
     time: W 1:10pm - 4:00pm
-    instructor: goadrich
+    instructor: seme
 
 resources:
   - name: Python 3
