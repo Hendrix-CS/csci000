@@ -22,47 +22,44 @@ description: >- # this means to ignore newlines until "baseurl:"
   algorithms and data structures (dictionaries, arrays, linked lists).
   Student learn these concepts through studying the Python programming
   language.
-baseurl: "/csci150" # the subpath of your site, e.g. /blog
+baseurl: "/csci100" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-number: CSCI 150
-title: Foundations of Computer Science
+number: CSCI 100
+title: Generic Computer Science Course
 semester: Fall 2019
+
+instructors:
+  - id: yorgey
+    name: Dr. Brent Yorgey
+    email: yorgey@hendrix.edu
+    web: http://ozark.hendrix.edu/~yorgey
+    phone: (501) 450-1377
+    officehours: https://byorgey.youcanbook.me
+  - id: goadrich
+    name: Dr. Mark Goadrich
+    email: goadrich@hendrix.edu
+    web: http://mark.goadrich.com
+    phone: (501) 450-1367
+    officehours: http://mark.goadrich.com/schedule.html
 
 offerings:
   - name: LECTURE 01
     loc: MCREY 110
     time: MWF 8:10am - 9:00am
-    instructor: Dr. Brent Yorgey
-    instemail: yorgey@hendrix.edu
-    instweb: http://ozark.hendrix.edu/~yorgey
-    instphone: (501) 450-1377
-    officehours: https://byorgey.youcanbook.me
+    instructor: yorgey
   - name: LECTURE 02
     loc: MCREY 110
     time: MWF 11:10am - 12:00pm
-    instructor: Dr. Mark Goadrich
-    instemail: goadrich@hendrix.edu
-    instweb: http://mark.goadrich.com
-    instphone: (501) 450-1367
-    officehours: http://mark.goadrich.com/schedule.html
+    instructor: goadrich
   - name: LAB 01
     loc: Snoddy Computer Lab
     time: R 1:10pm - 4:00pm
-    instructor: Dr. Brent Yorgey
-    instemail: yorgey@hendrix.edu
-    instweb: http://ozark.hendrix.edu/~yorgey
-    instphone: (501) 450-1377
-    officehours: https://byorgey.youcanbook.me
+    instructor: yorgey
   - name: LAB 02
     loc: Snoddy Computer Lab
     time: W 1:10pm - 4:00pm
-    instructor: Dr. Mark Goadrich
-    instemail: goadrich@hendrix.edu
-    instweb: http://mark.goadrich.com
-    instphone: (501) 450-1367
-    officehours: http://mark.goadrich.com/schedule.html
-
+    instructor: goadrich
 
 # Build settings
 markdown: kramdown

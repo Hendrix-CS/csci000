@@ -10,12 +10,16 @@ layout: course
         <p>{{ offer.time }}</p>
         <h5>Location</h5>
         <p>{{ offer.loc }}</p>
+        {% for inst in site.instructors %}
+        {% if offer.instructor == inst.id %}
         <h5>Instructor</h5>
-        <p><a href="{{ offer.instweb}}">{{ offer.instructor}}</a><br>
-        {{ offer.instemail }}<br>
-        {{ offer.instphone }}<br>
-        <a href="{{ offer.officehours }}">Office Hours</a>
+        <p><a href="{{ inst.web}}">{{ inst.name}}</a><br>
+        {{ inst.email }}<br>
+        {{ inst.phone }}<br>
+        <a href="{{ inst.officehours }}">Office Hours</a>
         </p>
+        {% endif %}
+        {% endfor %}
         </div>
       </div>
       {% endfor %}

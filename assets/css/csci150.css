@@ -26,7 +26,7 @@ body {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('../images/startrails.jpg');
+  background-image: url('../images/jumbo-background.jpg');
   background-size: cover;
   color: #ffffff;
   height: 400px;
