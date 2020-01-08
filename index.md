@@ -43,38 +43,13 @@ Exceptions may be made on a case-by-case basis if you can prove to me that you r
 
 When we write code together in class, it will be posted here!
 
-| Date | Topic | 8am | 11am |
-|:-:|-||-||-||
-| F 30 Aug | Intro to Python | [8am](https://pythonintro-yorgey.notebooks.azure.com/j/notebooks/PythonIntro.ipynb) | [11am](https://generalnotes-goadrich.notebooks.azure.com/j/notebooks/firstnotebook.ipynb) |
-| W 4 Sep | More Math and Functions | [8am](https://boxmath-yorgey.notebooks.azure.com/j/notebooks/BoxMath.ipynb) | [11am](https://generalnotes-goadrich.notebooks.azure.com/j/notebooks/Functions.ipynb) |
-| F 6 Sep | Strings and Booleans | [8am](https://booleans-yorgey.notebooks.azure.com/j/notebooks/Strings%20and%20Booleans.ipynb) | [11am](https://generalnotes-goadrich.notebooks.azure.com/j/notebooks/Booleans.ipynb) |
-| M 9 Sep | Conditionals | [8am](https://booleans-yorgey.notebooks.azure.com/j/notebooks/Conditionals.ipynb) | [11am](https://generalnotes-goadrich.notebooks.azure.com/j/notebooks/Strings%20and%20Conditionals.ipynb) |
-| M 23 Sep | PyCharm, I/O, while | [intro.py]({{site.baseurl}}/in-class/8am/intro.py), [while.py]({{site.baseurl}}/in-class/8am/while.py) | [intro.py]({{site.baseurl}}/in-class/11am/intro.py) |
-| W 25 Sep | more while loops | [while.py]({{site.baseurl}}/in-class/8am/while.py), [collatz.py]({{site.baseurl}}/in-class/8am/collatz.py) | [repetition.py]({{site.baseurl}}/in-class/11am/repetition.py), [collatz.py]({{site.baseurl}}/in-class/11am/collatz.py) |
-| F 27 Sep | functions | [collatz.py]({{site.baseurl}}/in-class/8am/collatz.py), [stacktrace.py]({{site.baseurl}}/in-class/8am/stacktrace.py) | [collatz2.py]({{site.baseurl}}/in-class/11am/collatz.py) |
-| M 30 Sep | function abstraction | [hilow.py]({{site.baseurl}}/code/hilow.py), [hilow_functions.py]({{site.baseurl}}/code/hilow_functions.py) | [hilow.py]({{site.baseurl}}/in-class/11am/hilow.py), [hilow_functions.py]({{site.baseurl}}/in-class/11am/hilow_functions.py)  |
-| W 2 Oct | strings | [8am](https://pythonintro-yorgey.notebooks.azure.com/j/notebooks/Strings.ipynb) | [11am](https://generalnotes-goadrich.notebooks.azure.com/j/notebooks/Strings.ipynb)|
-| F 4 Oct | String and loop practice | [8am](https://pythonintro-yorgey.notebooks.azure.com/j/notebooks/Strings.ipynb) | [morewhile.py]({{site.baseurl}}/in-class/11am/morewhile.py)|
-| M 7 Oct | Lists | [8am](https://pythonintro-yorgey.notebooks.azure.com/j/notebooks/Lists.ipynb) | [morewhile2.py]({{site.baseurl}}/in-class/11am/morewhile2.py) |
-| W 9 Oct | More lists | [8am](https://pythonintro-yorgey.notebooks.azure.com/j/notebooks/Lists.ipynb) | [listpractice.py]({{site.baseurl}}/in-class/11am/listpractice.py) |
-| F 11 Oct | List practice | [8am](https://pythonintro-yorgey.notebooks.azure.com/j/notebooks/Lists.ipynb) | [fridaypractice.py]({{site.baseurl}}/in-class/11am/fridaypractice.py)|
-| M 21 Oct | For loops | [For Loops.ipynb](https://pythonintro-yorgey.notebooks.azure.com/j/notebooks/For%20Loops.ipynb) | [ForLoops.ipynb](https://generalnotes-goadrich.notebooks.azure.com/j/notebooks/ForLoops.ipynb)|
-| W 23 Oct | For loops with `range` | [For Loops.ipynb](https://pythonintro-yorgey.notebooks.azure.com/j/notebooks/For%20Loops.ipynb) |
-| F 25 Oct | Tracing and the Heap | [References](https://pythonintro-yorgey.notebooks.azure.com/j/notebooks/References.ipynb) | [More Tracing](https://generalnotes-goadrich.notebooks.azure.com/j/notebooks/MoreTracing.ipynb) |
-| M 28 Oct | Dictionaries | [Dictionaries](https://pythonintro-yorgey.notebooks.azure.com/j/notebooks/Dictionaries.ipynb) | [Dictionaries](https://generalnotes-goadrich.notebooks.azure.com/j/notebooks/Dictionaries.ipynb) |
-| W 30 Oct | File Input Output | [Files](https://pythonintro-yorgey.notebooks.azure.com/j/notebooks/Files.ipynb) | [File I/O](https://generalnotes-goadrich.notebooks.azure.com/j/notebooks/FileInputOutput.ipynb) |
-| F 1 Nov | Dictionary/tracing practice | [Dictionaries](https://pythonintro-yorgey.notebooks.azure.com/j/notebooks/Dictionaries.ipynb) | |
-| M 4 Nov | Classes and objects | [Birthday Cake.ipynb](https://pythonintro-yorgey.notebooks.azure.com/j/notebooks/Birthday%20Cake.ipynb) | [Objects.ipynb](https://generalnotes-goadrich.notebooks.azure.com/j/notebooks/Objects.ipynb) |
-| W 6 Nov | More Classes | | [MakingCake.ipynb](https://generalnotes-goadrich.notebooks.azure.com/j/notebooks/MakingCake.ipynb) |
-| F 8 Nov | Designing classes | [traffic.py]({{site.baseurl}}/in-class/8am/traffic.py) | |
-| M 11 Nov | Extended example | | |
-| W 13 Nov | Extended example | | [Card, Hand, Deck, Player]({{site.baseurl}}/in-class/11am/CardStuff.py)|
-| F 15 Nov | Extended example | [Elevator]({{site.baseurl}}/in-class/8am/Elevator.py), [Person]({{site.baseurl}}/in-class/8am/Person.py), [Hotel]({{site.baseurl}}/in-class/8am/Hotel.py), [Main]({{site.baseurl}}/in-class/8am/Main.py) | |
-| MW 2-4 Dec | Queues | | |
-| F 6 Dec | ? | [A different problem](https://open.kattis.com/problems/different), [Cold-puter Science](https://open.kattis.com/problems/cold), [Baby Bites](https://open.kattis.com/problems/babybites), [Saving Princess Peach](https://open.kattis.com/problems/princesspeach), [Babelfish](https://open.kattis.com/problems/babelfish) | [Graphics.py Demo Day]({{site.baseurl}}/in-class/11am/demoday.py) |
+| Date | Topic | Code |
+|:----:|------||-----||
+| F 30 Aug | Intro to Python | [Intro Notebook](https://pythonintro-yorgey.notebooks.azure.com/j/notebooks/PythonIntro.ipynb) |
+| W 4 Sep | More Math and Functions | [Box Math](https://boxmath-yorgey.notebooks.azure.com/j/notebooks/BoxMath.ipynb) |
+| F 6 Sep | Strings and Booleans | [Booleans](https://booleans-yorgey.notebooks.azure.com/j/notebooks/Strings%20and%20Booleans.ipynb)
 
 <hr>
-
 # Coursework
 
 Each student has **four late days** to spend throughout the semester as they wish.
@@ -90,22 +65,14 @@ will receive at most half credit.
 
 ## <a name="hwqz">Homework and Quizzes</a>: 140 points
 
-| #  | Name | Assigned | Due
-|:-:|-||:-:|:-:|
+| #  | Name | Assigned | Due |
+|:--:|-----||:--------:|:---:|
 |0 | [Info Sheet](https://docs.google.com/forms/d/e/1FAIpQLSdtxgmw2tL6IzzK0qq3Fw2h2FTFmGHoTRs8p6wTfTToUn7pZg/viewform?usp=sf_link) | W Aug 28 | F Aug 30 |
-|1 | [Minecraft by hand]({{site.baseurl}}/homework/minecraft.html) | F Aug 30 | W Sep 4 |
-|2 | [Boolean practice]({{site.baseurl}}/homework/booleans.pdf) | F Sep 6 | W Sep 11 |
-|3 | [Tracing & conditional practice]({{site.baseurl}}/homework/tracing-conditional-practice.pdf) | F Sep 13 | W Sep 18 |
-| |Homework Checkin 1 | M Sep 23 | F Oct 4 |
-|4 | [Function and loop practice]({{site.baseurl}}/homework/function-reading.pdf) | F Sep 27 | W Oct 2 |
-|5 | [Strands of DNA]({{site.baseurl}}/homework/dna-strings.html) | F Oct 4 | W Oct 9 |
-|6 | [For loop reading]({{site.baseurl}}/homework/for-reading.pdf) | F Oct 25 | W Oct 30 |
-|7 | [Heap/dictionary reading]({{site.baseurl}}/homework/heap-dict-reading.pdf) | F Nov 1 | W Nov 6 |
-|8 | [Class design practice]({{site.baseurl}}/homework/class-design.pdf) | F Nov 8 | W Nov 13 |
-|9 | [Class reading]({{site.baseurl}}/homework/class-reading.pdf) | F Nov 15 | W Nov 20 |
+|1 | [Sample Homework]({{site.baseurl}}/homework/function-reading.pdf) | F Sep 27 | W Oct 2 |
+|2 | [Sample Homework]({{site.baseurl}}/homework/function-reading.pdf) | F Sep 27 | W Oct 2 |
+|3 | [Sample Homework]({{site.baseurl}}/homework/function-reading.pdf) | F Sep 27 | W Oct 2 |
 
 There will often be short homework assignments to be completed over the weekend, assigned on Friday and due Wednesday, sometimes with a corresponding quiz at the beginning of class on Wednesday.
-
 
 ## <a name="labs">Labs</a>: 260 points
 
@@ -123,8 +90,8 @@ On these labs, you will work with a partner on the lab assignments. Their name m
 
 ## <a name="projects">Projects</a>: 350 points
 
-| #  | Name | Points | Assigned | Due
-|:-:|-||:-:|:-:|:-:|
+| #  | Name | Points | Assigned | Due |
+|:--:|-----||:------:|:--------:|:---:|
 |1 | [Sample Project]({{site.baseurl}}/projects/sample-project.html)  | 50  | Sep 21 | Sep 30 |
 |2 | [Sample Project]({{site.baseurl}}/projects/sample-project.html) | 100 | Oct 16 | Nov 1 |
 |3 | [Sample Project]({{site.baseurl}}/projects/sample-project.html) | 200 | Nov 18 | Final Exam Day |
@@ -139,10 +106,9 @@ There will be three in-class exams, the first worth 50 points and the second and
 third worth 100 of your final grade. They will consist of short answer
 questions along with writing and debugging code.
 
-* Exam 1: Sep 20, covering functions, math, numerical data,
-  conditionals, and binary encoding ([Practice exam]({{site.baseurl}}/docs/exam1-practice-f19.pdf))
-* Exam 2: Oct 16, covering input/output, while loops, lists, and strings ([Practice exam]({{site.baseurl}}/docs/exam2-practice-f19.pdf))
-* Exam 3: Nov 25, covering for loops, dictionaries, classes and objects ([Practice exam]({{site.baseurl}}/docs/exam3-practice-f19.pdf))
+* Exam 1: Sep 20, covering functions, math, numerical data, conditionals, and binary encoding
+* Exam 2: Oct 16, covering input/output, while loops, lists, and strings
+* Exam 3: Nov 25, covering for loops, dictionaries, classes and objects
 
 There is no final exam; you will complete a final project instead, as described above under Projects.
 
