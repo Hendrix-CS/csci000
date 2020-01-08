@@ -48,31 +48,11 @@ Upon completing this course, our goal is for you to be able to:
 
 ## <a name="resources">Resources</a>
 
-<div class="row">
-{% for res in page.resources %}
-<div class="col-md-{{ 12 | divided_by: page.resources.size }}"
-     style="text-align: center">
-<img src="{{site.baseurl}}/{{ res.image }}" height="100" border="1">
-<p>
-<a href="{{ res.url }}">{{ res.name }}</a><br>
-</p>
-</div>
-{% endfor %}
-</div>
+{% include resources.html content=page.resources %}
 
 ## <a name="additional-resources">Optional Resources</a>
 
-<div class="row">
-{% for res in page.extra-resources %}
-<div class="col-md-{{ 12 | divided_by: page.extra-resources.size }}"
-     style="text-align: center">
-<img src="{{site.baseurl}}/{{ res.image }}" height="100" border="1">
-<p>
-<a href="{{ res.url }}">{{ res.name }}</a><br>
-</p>
-</div>
-{% endfor %}
-</div>
+{% include resources.html content=page.extra-resources %}
 
 ## Laptop Policy
 
@@ -152,8 +132,8 @@ There will often be short homework assignments to be completed over the weekend,
 
 ## <a name="labs">Labs</a>: 260 points
 
-| #  | Name | Assigned | Due
-|:-:|-||:-:|:-:|
+| #  | Name | Assigned | Due |
+|:--:|-----||:--------:|:---:|
 |1 | [Sample Lab]({{site.baseurl}}/labs/sample-lab.html) | Aug 28-29 | Sep 4-5 |
 |2 | [Sample Lab]({{site.baseurl}}/labs/sample-lab.html) | Sep 4-5 | Sep 11-12 |
 |3 | [Sample Lab]({{site.baseurl}}/labs/sample-lab.html) | Sep 11-12 | Sep 18-19 |
