@@ -28,6 +28,32 @@ number: CSCI 000
 title: Generic Computer Science Course
 semester: Fall 2019
 
+navigation:
+  - title: Overview
+    subfolderitems:
+      - page: Description
+        url: '#description'
+      - page: Learning Goals
+        url: '#goals'
+      - page: Resources
+        url: '#resources'
+  - page: In-Class Code
+    url: '#inclasscode'
+  - title: Coursework
+    subfolderitems:
+      - page: Homework and Quizzes
+        url: '#hwqz'
+      - page: Labs
+        url: '#labs'
+      - page: Projects
+        url: '#projects'
+      - page: Exams
+        url: '#exams'
+      - page: Scale
+        url: '#scale'
+  - page: Commitments
+    url: '#commitments'
+
 instructors:
   - id: yorgey
     name: Dr. Brent Yorgey
