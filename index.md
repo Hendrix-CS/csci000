@@ -3,29 +3,6 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: course-multi
-resources:
-  - name: Python 3
-    image: assets/images/pythonlogo.png
-    url: http://python.org
-  - name: Azure Notebooks
-    image: assets/images/azure.png
-    url: https://notebooks.azure.com/
-  - name: Pycharm
-    image: assets/images/pycharmlogo.png
-    url: https://www.jetbrains.com/pycharm/
-extra-resources:
-  - name: "How to Think Like a Computer Scientist: Interactive Edition"
-    image: assets/images/runestone_logo.png
-    url: https://runestone.academy/runestone/books/published/thinkcspy/index.html
-  - name: Python Tutor
-    image: assets/images/python_tutor.png
-    url: http://pythontutor.com/
-  - name: CodingBat Python
-    image: assets/images/codingbat.jpg
-    url: https://codingbat.com/python
-  - name: CheckiO Python Practice
-    image: assets/images/checkio_logo_small.png
-    url: https://py.checkio.org/
 ---
 
 # <a name="description">Overview</a>
@@ -48,11 +25,11 @@ Upon completing this course, our goal is for you to be able to:
 
 ## <a name="resources">Resources</a>
 
-{% include resources.html content=page.resources %}
+{% include resources.html content=site.resources %}
 
 ## <a name="additional-resources">Optional Resources</a>
 
-{% include resources.html content=page.extra-resources %}
+{% include resources.html content=site.extra-resources %}
 
 ## Laptop Policy
 
