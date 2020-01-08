@@ -22,8 +22,8 @@ worktitle: BLAH BLAH BLAH
 
 ## Grading
 
-* To earn a D, demonstrate
-* To earn a C, do the above and
-* To earn a B, do the above and
-* To earn an A, do the above and
-* To earn a 100, do the above and
+* To earn a 5, demonstrate
+* To earn a 10, do the above and
+* To earn a 14, do the above and
+* To earn a 17, do the above and
+* To earn a 20, do the above and
