@@ -20,10 +20,11 @@
                 {% endif %}
             {% else %}
             <li class="nav-item">
-              {% if item.url | slice: 0:7 == "http://" %}
+              {% assign foo = item.url | slice: 0, 4 %}
+              {% if foo == "http") %}
               <a class="nav-link" href="{{ item.url }}">{{ item.page }}</a>
               {% else %}
-              <a class="nav-link" href="{{ site.baseurl}}/{{ item.url }}">{{ item.page }}</a>
+              <a class="nav-link" href="{{ site.baseurl }}/{{ item.url }}">{{ item.page }}</a>
               {% endif %}
             </li>
             {% endif %}
@@ -33,6 +34,9 @@
     </div>
   </div>
 </nav>
+
+<div>
+</div>
 
 <div>
 </div>
