@@ -4,7 +4,11 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-portfolio-item/blob/master/LICENSE)
  */
 
+@import url("https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700");
+
+
 body {
+  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   padding-top: 54px;
 }
 
@@ -12,6 +16,36 @@ body {
   body {
     padding-top: 56px;
   }
+}
+
+/* https://www.geeksforgeeks.org/how-to-change-navigation-bar-color-in-bootstrap/ */
+
+/* Modify the background color */
+.navbar-custom {
+    background-color: #F5822A;
+}
+
+/* Modify brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: white;
+}
+
+a {
+  color: #F5822A;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+a:hover {
+  color: #ac3911;
+  text-decoration: underline;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
 }
 
 .internal-header:before {
@@ -81,7 +115,7 @@ tr:nth-child(even) {background-color: #f2f2f2;}
 blockquote{
 	margin: 30px;
 	padding: 10px;
-	background-color: #EEEEEE;
+	background-color: #f2f2f2;
 }
 
 /* https://idratherbewriting.com/documentation-theme-jekyll/mydoc_alerts.html */
@@ -95,10 +129,6 @@ blockquote{
 
 div.alert code {
     background-color: transparent !important;
-}
-/* without this, the links in these notes aren't visible.*/
-.alert a {
-    text-decoration: underline;
 }
 
 .note code, .alert code, .warning code {
