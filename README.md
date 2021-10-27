@@ -4,6 +4,10 @@ This is the generic template for making a Computer Science course page at [Hendr
 
 Do you have improvements you would like to add? Pull Requests are welcome! Please add any errors, questions, or accessibility issues to the Issues section above.
 
+## Examples
+
+Links to all of the Hendrix CSCI courses using this template can be found at [hendrix-cs.github.io](https://hendrix-cs.github.io/).
+
 ## Deployment
 
 There are just a few steps to creating a new course website from this repository.
@@ -90,7 +94,3 @@ We use Hendrix Orange `#f5822a` as the main color theme in the header, footer, a
 ### Fonts
 
 Hendrix uses the [Merriweather Sans](https://fonts.google.com/specimen/Merriweather+Sans) font on webpages. Other fonts can be [swapped out](https://stackoverflow.com/questions/14676613/how-to-import-google-web-font-in-css-file) for your particular instutituional style by changing the `@import` and `font-family` lines.
-
-## Examples
-
-Links to all of the Hendrix CSCI courses using this template can be found at [hendrix-cs.github.io](https://hendrix-cs.github.io/).
