@@ -38,6 +38,8 @@ Finally, the `title` for the course should be edited to match the catalog name, 
 
 ### Navigation Bar
 
+The `navigation` denotes the links in the top-right of the header on each page. Simple links have a `page` and `url` field, while grouping of links are denoted with a `title` field and a `subfolderitems` list of simple links.
+
 ### Instructors and Offerings
 
 The next section of `_config.yml` defines the `instructors` for the course. An instructor has an `id`,`name`,`email` address,`web` link ,`phone` number, and `officehours` link. This information is displayed either on or near the jumbotron in the main page header.
