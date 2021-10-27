@@ -90,3 +90,7 @@ We use Hendrix Orange `#f5822a` as the main color theme in the header, footer, a
 ### Fonts
 
 Hendrix uses the [Merriweather Sans](https://fonts.google.com/specimen/Merriweather+Sans) font on webpages. Other fonts can be [swapped out](https://stackoverflow.com/questions/14676613/how-to-import-google-web-font-in-css-file) for your particular instutituional style by changing the `@import` and `font-family` lines.
+
+## Examples
+
+Links to all of the Hendrix CSCI courses using this template can be found at [hendrix-cs.github.io](https://hendrix-cs.github.io/).
