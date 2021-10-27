@@ -2,6 +2,11 @@
 
 @import url("https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700");
 
+/* https://stackoverflow.com/a/56467997 */
+html {
+  scroll-padding-top: 70px; /* height of sticky header */
+}
+
 body {
   font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   padding-top: 54px;
