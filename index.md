@@ -2,6 +2,10 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
+# For courses with a single offering in the _config.yml,
+# uncomment the following line and comment out the course-multi line
+
+#layout: course-single
 layout: course-multi
 ---
 
