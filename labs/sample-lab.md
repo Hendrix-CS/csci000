@@ -27,7 +27,7 @@ specify that the x, y origin (0,0) is located in the upper-left corner
 of the screen, with x increasing to the right and y increasing
 downwards, as shown here.
 
-![Coordinate System](../assets/images/coordinates.png)
+![Coordinate System](../assets/images/coordinates.png){: .img-fluid}
 
 *Image source: (http://programarcadegames.com/chapters/05_intro_to_graphics/Computer_coordinates_2D.png)*
 
