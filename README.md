@@ -14,11 +14,13 @@ There are just a few steps to creating a new course website from this repository
 
 * Determine the subdirectory you will use for this course. For example, our [CSCI 150 - Foundations of Computer Science](http://hendrix-cs.github.io/csci150) course uses `csci150`.
 
-* Create a new repository on GitHub named exactly with your subdirectory name. Use this as the [template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) for the new repository. Your repository can be public or private.
+* Use this repository as the [template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) for making your new repository, named exactly with your chosen subdirectory name. Your repository can be public or private.
 
 * Edit the `_config.yml` file on line 27, changing the `baseurl` to be your chosen subdirectory, e.g. `/csci150`.
 
-* [Configure the repository](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) so that is will show up as a GitHub pages website. It will be found at `<username>.github.io/<subdir>`.
+* [Configure the repository](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) so that is will show up as a GitHub pages website. 
+
+Hooray! Your course website should be visible at `https://<username>.github.io/<subdir>`.
 
 ## Content
 
