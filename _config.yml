@@ -22,11 +22,12 @@ description: >- # this means to ignore newlines until "baseurl:"
   Student learn these concepts through studying the Python programming
   language.
 baseurl: "/csci000" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://hendrix-cs.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 number: CSCI 000
 title: Generic Computer Science Course
 semester: Fall 2019
+hypothesis: false
 
 navigation:
   - title: Overview
