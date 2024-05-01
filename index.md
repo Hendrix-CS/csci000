@@ -8,6 +8,7 @@
 #layout: course-single
 layout: course-multi
 ---
+<br/>
 
 # <a name="description">Overview</a>
 
