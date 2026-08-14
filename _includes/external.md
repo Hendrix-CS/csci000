@@ -28,7 +28,11 @@ appointments, and for more information, visit
 contact [pruneda@hendrix.edu](mailto:pruneda@hendrix.edu).  We look
 forward to working with you!
 
-## <a name="wellness">Health & wellness</a>
+## Diversity Statement
+
+Hendrix College values a diverse learning environment as outlined in the College's [Statement on Diversity](https://www.hendrix.edu/diversity/statement/). All members of this community are expected to contribute to a respectful, welcoming, and inclusive environment for everyone. If you believe you have been the subject of discrimination, please contact the Interim Assistant Vice-President & Dean of Students, JB Banks, at [BanksA@hendrix.edu](mailto:BanksA@hendrix.edu) or reach out via e-mail at [titleix@hendrix.edu](mailto:titleix@hendrix.edu). If you have ideas to improve the classroom experience's inclusivity, please feel free to contact this professor. For more information on Hendrix's non-discrimination policies, please visit [Hendrix.edu/nondiscrimination](Hendrix.edu/nondiscrimination).
+
+## <a name="wellness">Health & Wellness</a>
 
 If you are struggling with your health in a way that makes it
 difficult for you to fulfill your responsibilities in the course,
@@ -47,3 +51,24 @@ students, even remotely:
   remote appointments, and can help with a host of issues such as
   stress, anxiety, depression, grief, or relationship difficulties.
   Call 501-450-1448 to make an appointment.
+
+## <a name="accommodations">Learning Accommodations</a>
+
+It is the policy of Hendrix College to accommodate students with
+disabilities, pursuant to federal and state law. Any student who needs
+accommodation in relation to a recognized disability should inform the
+instructor at the beginning of the course. Students should also
+contact the Office of Academic Success (505.2954;
+[academicsuccess@hendrix.edu](mailto:academicsuccess@hendrix.edu)) to begin the 
+accommodation process.
+
+## Title IX and Discrimination
+
+Title IX Reports of Discrimination Based on Sex, including Sexual Harassment, Sexual Assault, Stalking, Dating Violence, or Gender-Based Harassment
+Statements to Consider for your Syllabus:
+All faculty and staff at Hendrix College are designated as a “Responsible Employee” and are mandated reporters required to report Sexual Misconduct. Hendrix College requires all faculty and staff to report sexual harassment, sexual assault, dating and domestic violence, and stalking against a student or employee to the Assistant Dean of Students, Paul Crawford, at [crawfordp@hendrix.edu](mailto:crawfordp@hendrix.edu).
+
+To report any Title IX incident or concern, complete the [Incident Reporting Form](https://cm.maxient.com/reportingform.php?HendrixCollege&layout_id=3).
+
+You may also contact Public Safety at 501-450-7711, who can assist you in completing a report.
+
