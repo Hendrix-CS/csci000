@@ -8,11 +8,11 @@ layout: course
         <div class="instructor">
         <h4>{{ offer.name }}</h4>
         <p>{{ offer.time }}</p>
-        <h5>Location</h5>
+        <h4>Location</h4>
         <p>{{ offer.loc }}</p>
         {% for inst in site.instructors %}
         {% if offer.instructor == inst.id %}
-        <h5>Instructor</h5>
+        <h4>Instructor</h4>
         <p><a href="{{ inst.web}}">{{ inst.name}}</a><br>
         {{ inst.email }}<br>
         {{ inst.phone }}<br>

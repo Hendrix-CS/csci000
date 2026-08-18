@@ -8,8 +8,20 @@ html {
 }
 
 body {
-  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: americane, sans-serif;
   padding-top: 54px;
+  background-color: var(--cream);
+}
+
+:is(h1, h2, h3, h4, h5, h6) {
+    font-family: "calluna", serif;
+font-weight: 400;
+font-style: normal;
+}
+
+h1 {
+  border-block-start: .375rem solid var(--orange-accessible);
+  padding-block-start: 1rem;
 }
 
 @media (min-width: 992px) {
@@ -24,6 +36,18 @@ body {
    --main-color:#cb4f0c;
    --dull-color:#ac3911;
    --light-bg:#f2f2f2;
+
+   --orange: #f5822a;
+  --orange-accessible: #df6d16;
+  --orange-dark: #b85001;
+  --rust: #cb4f0c;
+  --charcoal: #252524;
+  --gray: #8e8e8e;
+  --gray-50: #8e8e8e80;
+  --black: #000;
+  --white: #fff;
+  --cream: #f7f5f0;
+  --black-80: #000000cc;
 }
 
 
@@ -31,7 +55,7 @@ body {
 
 /* Modify the background color */
 .navbar-custom {
-    background-color: var(--main-color);
+    background-color: var(--orange);
 }
 
 /* Modify brand and text color */
@@ -40,15 +64,27 @@ body {
     color: white;
 }
 
+.navbar-custom .navbar-brand {
+  font-family: "pressio-compressed", sans-serif;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: .8;
+}
+
+.nav-link {
+  color: var(--white);
+}
+
 a {
-  color: var(--main-color);
+  color: var(--orange-accessible);
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
 
 a:hover {
-  color: var(--dull-color);
+  color: var(--orange);
   text-decoration: underline;
 }
 
@@ -71,32 +107,35 @@ img {
   align-items: center;
   background-image: url('../images/jumbo-background.jpg');
   background-size: cover;
-  color: #ffffff;
+  color: var(--white);
   min-height: 400px;
-  text-shadow: 0.25px 0.25px 0.25px #000000;
+  text-shadow: 0.25px 0.25px 0.25px var(--black);
 }
 
 .jumbotron h2 {
-  font-size: 60px;
+  font-family: "pressio-compressed", sans-serif;
+  text-transform: uppercase;
+  font-size: 100px;
   font-weight: 700;
+  line-height: .8;
   margin: 0;
-  color: #ffffff;
+  color: var(--orange);
 }
 
 .jumbotron h3 {
   margin: 0 0 20px;
-  color: #ffffff;
+  color: var(--white);
 }
 
 table{
     border-collapse: collapse;
     border-spacing: 0;
-    width: 95%;
+    width: 100%;
 }
 
 table th{
 	padding: 3px;
-  background-color: var(--light-bg);
+  background-color: var(--orange);
   /*  border:2px solid #000000; */
 }
 
@@ -106,16 +145,17 @@ table td{
 }
 
 /* https://www.w3schools.com/css/tryit.asp?filename=trycss_table_striped */
-tr:nth-child(even) {background-color: var(--light-bg);}
+tr:nth-child(even) {background-color: var(--white);}
 
 .instructor {
-	background-color: var(--light-bg);
+	background-color: var(--white);
 	margin: 5px;
 	padding: 10px;
 	text-align: center;
-  color: #000000;
+  color: var(black);
   text-shadow: none;
-
+  border-block-start: .375rem solid var(--orange-accessible);
+  padding-block-start: 1rem;
 }
 
 blockquote{
