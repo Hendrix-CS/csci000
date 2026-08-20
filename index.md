@@ -12,7 +12,9 @@ layout: course-multi
 
 # <a name="description">Overview</a>
 
+<p class="course-desc">
 {{ site.description }}
+</p>
 
 ## <a name="goals">Learning Goals</a>
 

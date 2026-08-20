@@ -30,6 +30,13 @@ h1 {
   }
 }
 
+.course-desc {
+  font-family: "calluna", serif;
+font-weight: 400;
+font-style: normal;
+font-size: large;
+}
+
 /* Color definitions */
 
 :root {
