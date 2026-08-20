@@ -64,6 +64,28 @@ h1 {
     color: white;
 }
 
+footer {
+  background-color: var(--black);
+}
+
+.btn-primary {
+  background-color: transparent;
+  color: var(--black);
+  border-color: var(--black);
+}
+
+.btn:hover {
+  background-color: var(--orange);
+  color: var(--white);
+  border-color: var(--black);
+}
+
+.btn:first-child:active {
+  background-color: var(--rust);
+  color: var(--white);
+  border-color: var(--black);
+}
+
 .navbar-custom .navbar-brand {
   font-family: "pressio-compressed", sans-serif;
   text-transform: uppercase;
@@ -146,6 +168,10 @@ table td{
 
 /* https://www.w3schools.com/css/tryit.asp?filename=trycss_table_striped */
 tr:nth-child(even) {background-color: var(--white);}
+
+.calendar table th {
+  background-color: revert-rule;
+}
 
 .instructor {
 	background-color: var(--white);

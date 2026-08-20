@@ -114,6 +114,10 @@ questions along with writing and debugging code.
 
 There is no final exam; you will complete a final project instead, as described above under Projects.
 
+{% include button.html 
+    link="docs/writing-rubric.pdf" 
+    label="Writing Rubric" %}
+
 ## <a name="scale">Grading Scale</a>
 
 | Score  | Grade  |
