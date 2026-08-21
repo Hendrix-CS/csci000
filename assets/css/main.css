@@ -164,7 +164,7 @@ table{
 
 table th{
 	padding: 3px;
-  background-color: var(--orange);
+  background-color: var(--gray-50);
   /*  border:2px solid #000000; */
 }
 
